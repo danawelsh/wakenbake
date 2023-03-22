@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS bake_db;
+CREATE DATABASE bake_db;
+
+USE bake_db;
+
+CREATE TABLE recipes(
+id INT NOT NUll,
+a VARCHAR(30),
+a VARCHAR(30),
+a VARCHAR(30)
+);
