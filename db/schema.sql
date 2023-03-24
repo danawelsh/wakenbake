@@ -1,5 +1,6 @@
-DROP DATABASE IF EXISTS bake_db;
-CREATE DATABASE bake_db;
+DROP DATABASE IF EXISTS wakenbake_db;
+CREATE DATABASE wakenbake_db;
+
 
 USE bake_db;
 
