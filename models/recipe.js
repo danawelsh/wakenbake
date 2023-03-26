@@ -27,7 +27,7 @@ Recipe.init(
       type: DataTypes.FLOAT,
       allowNull: false,
     },
-    user_id: {
+    description_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'user',
