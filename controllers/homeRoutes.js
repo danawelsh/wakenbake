@@ -4,21 +4,21 @@ const { description, recipe } = require('../models');
 
 router.get('/', async (req, res) => {
   try {
-    const recipeData = await recipe.findAll({
+    // const recipeData = await recipe.findAll({
 
-    })
+    // })
 
-    CSSConditionRule.log('recipe data', recipeData)
-    // res.render('main', { 
-    //   logged_in: req.session.logged_in 
-    // });
+    // CSSConditionRule.log('recipe data', recipeData)
+    res.render('homepage', { 
+      logged_in: req.session.logged_in 
+    });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get('/potato', async (req, res) => {
-  res.render('secret')
+router.get('/signup', async (req, res) => {
+  res.render('signup')
 })
 
 // router.get('/profile', async (req, res) => {
