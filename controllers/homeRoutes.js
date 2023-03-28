@@ -21,6 +21,10 @@ router.get('/signup', async (req, res) => {
   res.render('signup')
 })
 
+router.get('/search', async (req, res) => {
+  res.render('search')
+})
+
 // router.get('/profile', async (req, res) => {
 //     try {
 //       const userData = await User.findByPk(req.session.user_id, {
