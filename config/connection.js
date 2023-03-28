@@ -1,4 +1,6 @@
 const Sequelize = require('sequelize');
+//const SequelizeStore = require('connect-session-sequelize')(session.Store)
+require('dotenv').config();
 
 let sequelize;
 
