@@ -1,13 +1,16 @@
 <div class="chef"></div>
 <h1>Homepage</h1>
-<a href = "/login">
-<button>
-    login
-</button> </a>
-<a href = "/signup">
-<button>
-    sign up
-</button></a>
+
+<div class="fixed_search_area">
+    <form>
+        <input type="search" placeholder="Search" id="ingredientInput">
+        <span>
+            <button id="search" class="btn" type="button">Search<i
+                    class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </span>
+    </form>
+</div>
+<section id="recipes"></section>
 <h2 id="randomQuoteArea"></h2>
 
-<script src="./homepage.js"></script>
+<script src="/js/homepage.js"></script>
