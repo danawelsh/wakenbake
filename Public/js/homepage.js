@@ -32,6 +32,7 @@ fetch('https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/jokes/ra
 				img.src = response.results[i].image
 				h3.textContent = response.results[i].title
 				saveBtn.textContent = "Save"
+				saveBtn.id = "save-button"
 				document.querySelector("#recipes").appendChild(h3)
 				document.querySelector("#recipes").appendChild(saveBtn)
 				document.querySelector("#recipes").appendChild(br)
@@ -53,3 +54,4 @@ fetch('https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/jokes/ra
 	}
 
 	document.querySelector("#search").addEventListener("click", getRecipies)
+	document.querySelector("#save-button").addEventListener("click", saveRecipe)
