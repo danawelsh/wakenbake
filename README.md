@@ -1,54 +1,30 @@
-# wakenbake
+## Wake~N~Bake
 
-REQUIREMENTS:
-Use Node.js and Express.js to create a RESTful API.
+# Description
 
-Use Handlebars.js as the templating engine.
-
-Use MySQL and the Sequelize ORM for the database.
-
-Have both GET and POST routes for retrieving and adding new data.
-
-Be deployed using Heroku (with data).
-
-Use at least one new library, package, or technology that we haven’t discussed.
-
-Have a polished UI.
-
-Be responsive.
-
-Be interactive (i.e., accept and respond to user input).
-
-Have a folder structure that meets the MVC paradigm.
-
-Include authentication (express-session and cookies).
-
-Protect API keys and sensitive information with environment variables.
-
-Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
-
-Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+This web application is a resource to secure recipes from all over the world. Users will be greeted with a randomized joke from the spoonacular random joke api. Users will have the ability to sign up for the site if they have not already. Users will have the ability to log in with their personal credentials, which will direct them to their homepage. When the user logs in, they will be able to use the search engine to look for new recipes via the spoonacular recipe api. When the user finds a recipe that they enjoy, they will have the option to save the recipe to their page which will act as a personalized cook book. The user's cook book will have a list of the recipes saved with their respective links for the user to access.
 
 
-HOPES FOR APP FUNCTIONALITY;
-- API that generates recipes
-    - ex. when you search for an ingredient such as strawberry, you receive recipes that include strawberries
-    - ex. when you general food such as cookies, you receive a bunch of cookie recipes
-- sign up/ log in page
-    - must save user information
-- app must be able to log recipe saves
-- create database with items people can buy- sort of like ads
-- animations:
-    - dancing mushrooms on every page
-    - frog instead of a cursor
-- aesthetic:
-    - cottagecore/goblincore color palette
-- handlebars/CSS/bootstrap
-- interactive:
-    - log in- boring, similar to other sites
-    - your personalized recipe book
-        - saved recipes; shows picture of recipe with ingredients and how-to attached
-        - on the nav bar: recipe book, with a hover, when you click on it, it takes you to the saved and logged recipes that you can keep or delete
-            - logout
-            - log-in/signup
-            - search bar
+# Installation
+
+npm install, node.js, mySQL, Sequelize, handlebars
+
+# Usage
+
+Users will be requried to sign up for the site if they have not already. When users sign up, they are required to provide their email address and create a password that is at least either characters in length and contains at least one uppercase character as well as number. When users have created their account they can log in to the profile homepage where they can access the search engine or their cook book. When users use the search engine they must type in an ingredient or a general recipe, such as cookie, in order for the api to respond. The api will then render a variety of options for the user to choose from in which they can then save to their page.
+
+# Tests
+
+Node testing to run server.
+
+# Questions
+
+If you have any questions regarding our product, please reach out to us!
+
+Email: danachloe@baking.com
+
+If you want to check out our work, go here!
+
+Github:
+
+Heroku:
