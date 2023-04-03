@@ -15,20 +15,8 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    recipe_link: {
       type: DataTypes.STRING,
-    },
-    date_created: {
-      type: DataTypes.DATE,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
-    },
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
-    },
-    description_id: {
-      type: DataTypes.INTEGER,
       references: {
         model: 'user',
         key: 'id',
