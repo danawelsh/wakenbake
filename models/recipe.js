@@ -16,7 +16,7 @@ Recipe.init(
       allowNull: false,
     },
     recipe_link: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       references: {
         model: 'user',
         key: 'id',
