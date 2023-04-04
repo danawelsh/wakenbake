@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(56, 125, 97); 
+    color: rgb(77, 176, 97);
+    color: rgba(96, 188, 112, 0.505);
+    color:rgb(176, 62, 62);
+    color: rgba(253, 98, 42, 0.797);
+    color: rgb(152, 120, 120); 
+    color:rgb(202, 151, 84); 
+    color: rgb(165, 165, 165);
+    color: rgb(252, 225, 192);
+
+
+
+
+    flex-wrap: wrap;
+    margin:auto
+}
